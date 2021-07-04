@@ -1,0 +1,25 @@
+{
+  "name": "TypeScriptLearned",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack serve",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Akash Preet",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/rx": "^4.1.2",
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.3.4",
+    "webpack": "^5.41.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "rxjs": "^7.1.0"
+  }
+}
